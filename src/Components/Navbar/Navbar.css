@@ -1,0 +1,52 @@
+.navcontent{
+    display: flex;
+    background-color: #000000;
+    border: 1px solid black;
+    flex-direction: column;
+    height: 100px;
+    color: aliceblue;
+}
+ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin: 10px 50px;
+padding-left: 250px;
+padding-top: 20px;
+ 
+}
+li{
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700px; 
+    padding-left: 40px ; 
+     
+    
+}
+
+.navbtn{
+     border: none;
+    background-color: red;
+    padding: 15px 20px;
+    font-weight: 600;
+    color: aliceblue;
+    position: relative;
+    bottom: 10px;
+}
+
+.navbtn:hover{
+    cursor: pointer;
+    color: #000000;
+    background-color:darkred;
+    border-radius: 10px;
+   
+}
+
+li:hover{
+    color: red;
+    cursor: pointer;
+    font-size: large;
+     
+}
+
